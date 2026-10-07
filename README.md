@@ -28,7 +28,7 @@ npx serve .
 - `style.css` — طراحی؛ رنگ‌ها در متغیرهای `:root` بالای فایل
 - `script.js` — ناوبری، مقیاس‌دهی صحنه، شمارندهٔ آمار، یادداشت
 - `assets/` — عکس‌ها و لوگوها (برش‌خورده از PDF اصلی)
-- `fonts/` — Vazirmatn و Source Serif 4 (مجوز OFL)
+- `fonts/` — Dana (فنَپ) و Source Serif 4 (مجوز OFL)
 
 ## نکته
 یادداشت اسلاید ۱۴ فقط در مرورگر خود کاربر (localStorage) ذخیره می‌شود.
