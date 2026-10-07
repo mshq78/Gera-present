@@ -117,21 +117,21 @@ a{color:inherit}
 .b-blue h2{margin:0;font:500 70px/1 var(--serif);color:#cfe0f6}
 
 /* ---------- ۷ تا ۱۲. صفحات خدمات ---------- */
-.feature{display:grid;grid-template-columns:1000px 1fr;grid-template-rows:minmax(0,1fr);column-gap:70px;padding:72px 60px 110px;direction:ltr}
-.feature.rev{grid-template-columns:1fr 1000px}
+.feature{display:grid;grid-template-columns:1100px 1fr;grid-template-rows:minmax(0,1fr);column-gap:70px;padding:72px 60px 110px;direction:ltr}
+.feature.rev{grid-template-columns:1fr 1100px}
 .feature.rev .photo{order:2}
-.photo{position:relative;margin:0;height:100%;border-radius:36px 36px 36px 230px;overflow:hidden;background:#dfe3ee}
-.feature.rev .photo{border-radius:36px 36px 230px 36px}
-.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.photo{position:relative;margin:0;align-self:center;border-radius:36px 36px 36px 150px;overflow:hidden;background:#dfe3ee}
+.feature.rev .photo{border-radius:36px 36px 150px 36px}
+.photo img{width:100%;height:auto;display:block}
 .photo::after{content:"";position:absolute;inset:auto 0 0 0;height:58%;background:linear-gradient(to top,rgba(10,13,52,.78),rgba(10,13,52,.35) 55%,transparent);pointer-events:none}
-.en{position:absolute;left:96px;bottom:40px;z-index:1;display:flex;flex-direction:column;color:#fff;direction:ltr;font-family:var(--serif);text-shadow:0 2px 24px rgba(0,0,0,.35)}
-.en .big{font-size:104px;font-weight:700;line-height:1.05;letter-spacing:-.01em}
-.en .mid{font-size:76px;font-weight:700;line-height:1.1;max-width:860px}
-.en .small{font-size:34px;font-weight:500;line-height:1.3;opacity:.95}
+.en{position:absolute;left:64px;bottom:32px;z-index:1;display:flex;flex-direction:column;color:#fff;direction:ltr;font-family:var(--serif);text-shadow:0 2px 24px rgba(0,0,0,.35)}
+.en .big{font-size:92px;font-weight:700;line-height:1.05;letter-spacing:-.01em}
+.en .mid{font-size:52px;font-weight:700;line-height:1.1;max-width:860px}
+.en .small{font-size:30px;font-weight:500;line-height:1.3;opacity:.95}
 .info{direction:rtl;align-self:center;display:flex;flex-direction:column}
 .tag{margin:0 0 20px;font-size:28px;font-weight:700;line-height:1.6;color:#0090d6}
-.ttl{margin:0;background:var(--blue);color:#fff;font-size:56px;font-weight:900;line-height:1.38;padding:40px 52px 38px;border-radius:0 120px 0 0}
-.body{margin:0;background:var(--navy);color:#fff;font-size:23.5px;line-height:1.98;padding:40px 52px 46px;border-radius:0 0 0 120px;text-align:start}
+.ttl{margin:0;background:var(--blue);color:#fff;font-size:50px;font-weight:900;line-height:1.38;padding:36px 48px 34px;border-radius:0 120px 0 0}
+.body{margin:0;background:var(--navy);color:#fff;font-size:23.5px;line-height:1.95;padding:36px 48px 42px;border-radius:0 0 0 120px;text-align:start}
 
 /* ---------- ۱۳. فرآیند همکاری ---------- */
 .s-process{background:#fff}
