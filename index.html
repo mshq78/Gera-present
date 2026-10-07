@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>پردیس نوآوری گرا | سازمان فردا، از ایده تا اجرا</title>
+<meta name="description" content="معرفی پردیس نوآوری گرا: بازی‌های سازمانی، بوت‌کمپ، میکرولرنینگ، کارگاه‌ها، پژوهش و مشاوره مدیریتی و ابزارهای توانمندسازی.">
+<meta name="theme-color" content="#202464">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230166b4'/><text x='50' y='68' font-size='56' text-anchor='middle' fill='white'>گ</text></svg>">
+<link rel="preload" href="fonts/vazirmatn-arabic-900-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- آیکون‌ها -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-dice" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4"/><g fill="currentColor" stroke="none"><circle cx="8" cy="8" r="1.3"/><circle cx="16" cy="8" r="1.3"/><circle cx="12" cy="12" r="1.3"/><circle cx="8" cy="16" r="1.3"/><circle cx="16" cy="16" r="1.3"/></g></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><rect x="6.5" y="2" width="11" height="20" rx="2.5"/><path d="M10.5 8.2l4 2.3-4 2.3z"/><path d="M10.5 18.5h3"/></symbol>
+    <symbol id="i-people" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3"/><circle cx="4.8" cy="10.5" r="2"/><circle cx="19.2" cy="10.5" r="2"/><path d="M6.5 20c0-3.6 2.4-6 5.5-6s5.5 2.4 5.5 6"/><path d="M1.5 18c0-2.2 1.3-3.8 3.3-3.8M22.5 18c0-2.2-1.3-3.8-3.3-3.8"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M3.5 4.5h17v11h-9.5l-4 4v-4h-3.5z"/><path d="M7.5 8.5h9M7.5 11.5h5.5"/></symbol>
+    <symbol id="i-nodes" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="4" cy="5" r="1.8"/><circle cx="20" cy="5" r="1.8"/><circle cx="4" cy="19" r="1.8"/><circle cx="20" cy="19" r="1.8"/><path d="M5.4 6.3l4.5 3.9M18.6 6.3l-4.5 3.9M5.4 17.7l4.5-3.9M18.6 17.7l-4.5-3.9"/></symbol>
+    <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5.5 21.5v-18"/><path d="M5.5 4.5h13l-3 4.2 3 4.3h-13"/></symbol>
+    <symbol id="i-building" viewBox="0 0 24 24"><rect x="4.5" y="3" width="10" height="18"/><path d="M14.5 9.5h5v11.5h-5M7.5 7h4M7.5 10.5h4M7.5 14h4M17 13h0M17 16.5h0"/></symbol>
+    <symbol id="i-person" viewBox="0 0 24 24"><circle cx="12" cy="7.5" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/><path d="M12 14.5v4"/></symbol>
+    <symbol id="i-board" viewBox="0 0 24 24"><rect x="3" y="3.5" width="18" height="12" rx="1.5"/><path d="M7 7.5h10M7 11h6M8 21l4-5.5 4 5.5"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5l8.5 7 8.5-7"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></symbol>
+    <symbol id="i-call" viewBox="0 0 24 24"><path d="M5 4h4l1.5 4.5-2.3 1.5a11 11 0 005.8 5.8l1.5-2.3L20 15v4a1.5 1.5 0 01-1.6 1.5C10.7 20 4 13.3 3.5 5.6A1.5 1.5 0 015 4z"/></symbol>
+    <symbol id="i-note" viewBox="0 0 24 24"><path d="M5 3.5h11l3 3v14H5z"/><path d="M8.5 9h7M8.5 12.5h7M8.5 16h4"/></symbol>
+  </defs>
+</svg>
+
+<div id="viewport">
+<div id="stage">
+<div id="deck">
+
+<!-- ۱. جلد -->
+<section class="slide s-cover" data-title="جلد">
+  <img class="bulb" src="assets/bulb.jpg" alt="لامپ با طرح اسکیس و رشته‌های شبکه‌ای روشن">
+  <div class="cover-text">
+    <h1 class="cover-name">گرا</h1>
+    <p class="cover-sub">پردیس نوآوری</p>
+    <p class="cover-en">GERA Innovation campus</p>
+    <hr>
+    <p class="cover-slogan">سازمان فردا، از ایده تا اجرا</p>
+    <p class="cover-slogan-en">Tomorrow’s Organization<br>From Idea to Execution</p>
+  </div>
+</section>
+
+<!-- ۲. نشان -->
+<section class="slide s-brand" data-title="نشان گرا">
+  <div class="half white">
+    <img class="brand-logo" src="assets/logo.jpg" alt="نشان پردیس نوآوری گرا">
+    <img class="brand-qr" src="assets/qr1.jpg" alt="کد QR پردیس نوآوری گرا">
+  </div>
+  <div class="half navy">
+    <img class="calli" src="assets/calligraphy.jpg" alt="خوشنویسی سفید روی دایره آبی">
+  </div>
+</section>
+
+<!-- ۳. داستان و خدمات -->
+<section class="slide s-story" data-title="داستان و خدمات گرا">
+  <div class="half navy">
+    <div class="wheel" id="wheel">
+      <svg class="rings" viewBox="0 0 960 1080" aria-hidden="true">
+        <circle cx="480" cy="540" r="230" /><circle cx="480" cy="540" r="262" /><circle cx="480" cy="540" r="294" />
+      </svg>
+      <div class="wheel-core"><span>خدمات<br>گرا</span></div>
+      <a class="node pos-t" data-a="0"   href="#7"  data-go="7"><i class="dia"><svg class="ic"><use href="#i-dice"/></svg></i><b>بازی‌های سازمانی</b></a>
+      <a class="node pos-r" data-a="60"  href="#9"  data-go="9"><i class="dia"><svg class="ic"><use href="#i-phone"/></svg></i><b>میکرولرنینگ</b></a>
+      <a class="node pos-r" data-a="120" href="#10" data-go="10"><i class="dia"><svg class="ic"><use href="#i-people"/></svg></i><b>کارگاه‌ها و دوره‌های تخصصی آموزشی</b></a>
+      <a class="node pos-b" data-a="180" href="#11" data-go="11"><i class="dia"><svg class="ic"><use href="#i-chat"/></svg></i><b>پژوهش و مشاوره مدیریتی</b></a>
+      <a class="node pos-l" data-a="240" href="#12" data-go="12"><i class="dia"><svg class="ic"><use href="#i-nodes"/></svg></i><b>ابزارهای توانمندسازی گرا</b></a>
+      <a class="node pos-l" data-a="300" href="#8"  data-go="8"><i class="dia"><svg class="ic"><use href="#i-flag"/></svg></i><b>طراحی و اجرای بوت‌کمپ‌های موضوع‌محور</b></a>
+    </div>
+  </div>
+  <div class="half white">
+    <article class="story-card">
+      <h2>داستان گرا</h2>
+      <h3>آشنایی و معرفی کوتاه سازمان</h3>
+      <p>در بسیاری از سازمان‌ها، برنامه‌های آموزشی مختلفی اجرا می‌شوند، اما یادگیری اثربخش به‌سختی شکل می‌گیرد. گرا از دل همین فاصله متولد شد؛ جایی که یادگیری سازمانی نه در کلاس و دوره‌های آموزشی سنتی، بلکه در تجربه، تعامل و سبک‌های نوین آموزش معنا پیدا می‌کند. تیم گرا متشکل از متخصصان توسعه منابع انسانی است که از سال ۱۴۰۰ با هدف بازتعریف آموزش و توسعه سازمانی فعالیت خود را آغاز کرد. در گرا، هر برنامه آموزشی سفری تعاملی است که بر پایه شناخت واقعی از کارکنان و نیازهای سازمان شکل می‌گیرد؛ جایی که یادگیری به تجربه‌ای پویا و اثرگذار بدل می‌شود، تجربه‌ای که رفتار می‌سازد و تغییر می‌آفریند.</p>
+      <p>تیم پردیس نوآوری گرا، یادگیری را به بخشی از فرهنگ سازمان‌ها تبدیل می‌کند.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ۴. آمار -->
+<section class="slide s-stats" data-title="نگاه آماری به گرا">
+  <header class="stats-title"><h2>نگاه آماری به گرا</h2><p lang="en" dir="ltr">GERA performance statistics</p></header>
+  <ul class="stats">
+    <li><svg class="ic"><use href="#i-building"/></svg><span class="dia"><b dir="ltr"><em>+</em><output data-count="25">۲۵</output></b></span><span class="lbl">فراگیری<br>سازمان‌ها</span></li>
+    <li><svg class="ic"><use href="#i-person"/></svg><span class="dia"><b dir="ltr"><em>+</em><output data-count="950">۹۵۰</output></b></span><span class="lbl">فراگیری<br>مدیران</span></li>
+    <li><svg class="ic"><use href="#i-people"/></svg><span class="dia"><b dir="ltr"><em>+</em><output data-count="8000">۸۰۰۰</output></b></span><span class="lbl">فراگیری<br>کارمندان</span></li>
+    <li><svg class="ic"><use href="#i-flag"/></svg><span class="dia"><b dir="ltr"><em>+</em><output data-count="400">۴۰۰</output></b></span><span class="lbl">بوت‌کمپ‌ها</span></li>
+    <li><svg class="ic"><use href="#i-dice"/></svg><span class="dia"><b dir="ltr"><em>+</em><output data-count="10">۱۰</output></b></span><span class="lbl">بازی‌های<br>سازمانی</span></li>
+    <li><svg class="ic"><use href="#i-board"/></svg><span class="dia"><b dir="ltr"><em>+</em><output data-count="100">۱۰۰</output></b></span><span class="lbl">عناوین<br>آموزشی</span></li>
+  </ul>
+</section>
+
+<!-- ۵. همکاران -->
+<section class="slide s-clients" data-title="برخی از همکاران گرا" data-footer>
+  <img class="lg lg-top" src="assets/logos-top.jpg" alt="لوگوی چند سازمان همکار: دانشگاه اصفهان، میار گستر نقش جهان، گروه توسعه سرمایه‌گذاری انتخاب، گلشهد، ذوب‌آهن اصفهان، شهدینه">
+  <div class="clients-mid">
+    <div class="clients-title"><p lang="en" dir="ltr">Some of GERA’s colleagues</p><h2>برخی از همکاران گرا</h2></div>
+    <img class="lg lg-mid" src="assets/logos-mid.jpg" alt="لوگوی مجتمع فولاد مبارکه، فولاد سبا و کالیبر">
+  </div>
+  <img class="lg lg-bot" src="assets/logos-bottom.jpg" alt="لوگوی گروه بسپار شیمی سپیدان، دانشگاه صنعتی اصفهان، صاپا، توکا فولاد، عازم و ورق خودرو چهارمحال و بختیاری">
+</section>
+
+<!-- ۶. مزیت‌ها -->
+<section class="slide s-adv" data-title="مزیت‌های کلیدی گرا" data-footer>
+  <ol class="col col-r" start="1">
+    <li><span class="n">۱</span><h3>چابکی</h3><p lang="en" dir="ltr">Agility</p></li>
+    <li><span class="n">۲</span><h3>خلاقیت و نوآوری در طراحی تجربه آموزشی</h3><p lang="en" dir="ltr">Creativity and innovation in the design of educational experience</p></li>
+    <li><span class="n">۳</span><h3>نگاه بین‌رشته‌ای</h3><p lang="en" dir="ltr">Interdisciplinary view</p></li>
+    <li><span class="n">۴</span><h3>راهکارهای بومی و منحصر به‌فرد</h3><p lang="en" dir="ltr">Native and unique solutions</p></li>
+    <li><span class="n">۵</span><h3>تجربه تعامل با صنایع</h3><p lang="en" dir="ltr">Experience interacting with industries</p></li>
+  </ol>
+  <div class="adv-band">
+    <div class="b-navy"><h2>مزیت‌های کلیدی گرا</h2></div>
+    <div class="b-blue"><h2 lang="en" dir="ltr">GERA key advantages</h2></div>
+  </div>
+  <ol class="col col-l" start="6">
+    <li><span class="n">۶</span><h3>اثربخشی در عمل</h3><p lang="en" dir="ltr">Effectiveness in action</p></li>
+    <li><span class="n">۷</span><h3>یادگیری مبتنی بر تجربه</h3><p lang="en" dir="ltr">Experience-based learning</p></li>
+    <li><span class="n">۸</span><h3>استواری علمی و داده‌محوری</h3><p lang="en" dir="ltr">Scientific and data-oriented stability</p></li>
+    <li><span class="n">۹</span><h3>رویکرد انسانی به توسعه سازمانی</h3><p lang="en" dir="ltr">Human approach to organizational development</p></li>
+    <li><span class="n">۱۰</span><h3>پیوند آموزش با تحول فرهنگ سازمانی</h3><p lang="en" dir="ltr">The link between education and the transformation of organizational culture</p></li>
+  </ol>
+</section>
+
+<!-- ۷. بازی‌های سازمانی -->
+<section class="slide feature" data-title="بازی‌های سازمانی" data-footer>
+  <figure class="photo"><img src="assets/gamification.jpg" alt="همکاران دور میز بازی سازمانی، با برج میلاد در پشت پنجره"><figcaption class="en"><span class="big">Gamification</span></figcaption></figure>
+  <div class="info">
+    <p class="tag">بازی، زبان تازه یادگیری سازمانی</p>
+    <h2 class="ttl">بازی‌های سازمانی</h2>
+    <p class="body">آموزش‌های سازمانی در بسیاری از موارد به‌صورت خشک و تکراری اجرا می‌شوند و کارکنان بیشتر شنونده‌اند تا مشارکت‌کننده؛ بازی‌های سازمانی پاسخی نو به این چالش‌اند؛ در فضای هر بازی محیطی پویا شکل می‌گیرد که یادگیری در آن از مسیر تجربه، تعامل و رقابت سازنده ایجاد می‌شود. در این فضا، موقعیت‌هایی واقعی از چالش‌های سازمان بازآفرینی می‌شود تا افراد در تصمیم‌گیری، گفت‌وگو و ایفای نقش فعال باشند. در فرایند بازی‌ها، یادگیری نه از طریق توضیحات تکراری، بلکه در جریان تجربه و بازخورد هم‌تیمی‌ها شکل می‌گیرد و حاصل آن، پیوندی میان رشد فردی، بهبود عملکرد سازمانی و حال خوب کارکنان در فرایند یادگیری است.</p>
+  </div>
+</section>
+
+<!-- ۸. بوت‌کمپ -->
+<section class="slide feature rev" data-title="بوت‌کمپ‌های موضوع‌محور" data-footer>
+  <figure class="photo"><img src="assets/bootcamp.jpg" style="object-position:35% 50%" alt="تیمی دور میز با کاغذهای رنگی چسبان، در حال کار گروهی"><figcaption class="en"><span class="small">Designing and implementing theme-based</span><span class="big">Bootcamps</span></figcaption></figure>
+  <div class="info">
+    <p class="tag">تبدیل آموزش تعاملی به فرهنگ توسعه و تحول سازمانی</p>
+    <h2 class="ttl">طراحی و اجرای بوت‌کمپ‌های موضوع‌محور</h2>
+    <p class="body">بوت‌کمپ‌های سازمانی گرا فضاهایی تعاملی و پرانرژی هستند که یادگیری در آن از مسیر تجربه، همکاری و بازخورد مستقیم شکل می‌گیرد. شرکت‌کنندگان در قالب چالش‌های طراحی‌شده با موقعیت‌های واقعی سازمان روبه‌رو می‌شوند و مهارت‌هایی چون ارتباط مؤثر، تصمیم‌گیری و همکاری میان‌واحدی را در عمل تمرین می‌کنند. با رویکرد بازی‌وارسازی و شبیه‌سازی موقعیت‌های واقعی، آموزش در فضایی زنده و نزدیک به واقعیت کاری جریان می‌یابد تا افراد ضمن یادگیری، مهارت‌ها را تجربه کنند، بازخورد بگیرند و مسیر رشد حرفه‌ای خود را بازتعریف کنند.</p>
+  </div>
+</section>
+
+<!-- ۹. میکرولرنینگ -->
+<section class="slide feature" data-title="میکرولرنینگ" data-footer>
+  <figure class="photo"><img src="assets/microlearning.jpg" style="object-position:22% 50%" alt="مردی با هدفون در کافه، در حال دیدن یک نمودار آموزشی روی گوشی"><figcaption class="en"><span class="big">Microlearning</span></figcaption></figure>
+  <div class="info">
+    <p class="tag">یادگیری در زمان کمتر، با تاثیرات ماندگار</p>
+    <h2 class="ttl">میکرولرنینگ</h2>
+    <p class="body">بسیاری از آموزش‌های سازمانی زمان و هزینه‌ی زیادی می‌برند اما اثر پایداری ندارند. میکرولرنینگ با ارائه‌ی آموزش‌های کوتاه، متمرکز و منطبق بر نیاز واقعی کارکنان، یادگیری را به تجربه‌ای کاربردی و اثرگذار تبدیل می‌کند. این رویکرد با بهره‌گیری از روش‌هایی چون بازی‌وارسازی، سینما مدیریت و مرور هدفمند منابع آموزشی، تجربه‌ای پویا و الهام‌بخش می‌سازد که انتقال سریع مهارت‌ها و بهبود عملکرد سازمانی می‌انجامد؛ بدون آن‌که جریان کار یا انرژی تیم‌ها مختل شود.</p>
+  </div>
+</section>
+
+<!-- ۱۰. کارگاه‌ها -->
+<section class="slide feature rev" data-title="کارگاه‌ها و دوره‌های تخصصی" data-footer>
+  <figure class="photo"><img src="assets/workshop.jpg" alt="مدرس در حال توضیح روی وایت‌برد برای شرکت‌کنندگان، با منظره شهر در پشت پنجره"><figcaption class="en"><span class="big">Workshop</span><span class="small">Specialized training courses</span></figcaption></figure>
+  <div class="info">
+    <p class="tag">جریان توسعه فردی از طریق یادگیری گروهی</p>
+    <h2 class="ttl">کارگاه‌ها و دوره‌های تخصصی آموزشی</h2>
+    <p class="body">بسیاری از رویدادهای آموزشی تئوریک و یک‌سویه‌اند و شرکت‌کنندگان پس از چند ساعت، انگیزه و انرژی خود را از دست می‌دهند. رویدادها و کارگاه‌های گرا با هدف انتقال دانش، توسعه مهارت و ایجاد ارتباط حرفه‌ای طراحی شده‌اند تا یادگیری به تجربه‌ای تعاملی و ماندگار تبدیل شود. با بهره‌گیری از اساتید و منتورهای صنعتی و استفاده از بازی‌وارسازی در طراحی جلسات، فضایی پویا شکل می‌گیرد که هر فرد در آن نقشی فعال دارد.</p>
+  </div>
+</section>
+
+<!-- ۱۱. پژوهش و مشاوره -->
+<section class="slide feature" data-title="پژوهش و مشاوره مدیریتی" data-footer>
+  <figure class="photo"><img src="assets/consulting.jpg" style="object-position:45% 50%" alt="دست‌های تایپ‌کننده روی لپ‌تاپ، میان نمودارها و گزارش‌های آماری"><figcaption class="en"><span class="mid">Management research and consulting</span></figcaption></figure>
+  <div class="info">
+    <p class="tag">تصمیم‌گیری بر اساس داده، نه فرضیات</p>
+    <h2 class="ttl">پژوهش و مشاوره مدیریتی</h2>
+    <p class="body">در بسیاری از سازمان‌ها، تصمیم‌ها بر پایه برداشت‌های اولیه و نه تحلیل واقعی داده‌ها گرفته می‌شوند؛ نتیجه آن، کاهش بهره‌وری و نارضایتی کارکنان است. خدمات پژوهش و مشاوره‌ی مدیریتی گرا آغازگر تغییراتی آگاهانه و پایدار است. با تکیه بر روش‌های علمی و ابزارهای روان‌شناسی سازمانی، منشاء واقعی چالش‌ها شناسایی و راه‌حل‌هایی عملی و مبتنی بر داده ارائه می‌شود. این خدمات حوزه‌هایی چون عارضه‌یابی، تحلیل ساختار، ارتقای رضایت شغلی و بهبود فرهنگ سازمانی را دربر می‌گیرد.</p>
+  </div>
+</section>
+
+<!-- ۱۲. ابزارهای توانمندسازی -->
+<section class="slide feature rev" data-title="ابزارهای توانمندسازی" data-footer>
+  <figure class="photo"><img src="assets/tools.jpg" style="object-position:60% 50%" alt="دفترچه چرمی، چای و لپ‌تاپ با نمودار روی میز مدیر"><figcaption class="en"><span class="big">Empowerment Tools</span></figcaption></figure>
+  <div class="info">
+    <p class="tag">پل میان آموزش و عمل: ابزارهایی برای تغییر موثر</p>
+    <h2 class="ttl">ابزارهای توانمندسازی</h2>
+    <p class="body">آموزش‌های سازمانی به تنهایی کافی نیستند و گاهی در شلوغی کارهای روزمره به‌تدریج فراموش می‌شوند. بر همین اساس مدیران به ابزارهایی نیاز دارند که یادگیری را به رفتار و فرهنگ سازمان بدل کنند. ابزارهای توانمندسازی گرا پاسخی عملیاتی به این نیاز است. هر ابزار، بر پایه نیازهای سازمان و با هدف ایجاد یک تغییر رفتاری مشخص طراحی شده است تا به پلی میان دانش تئوریک و اجرای واقعی در محیط سازمان تبدیل شوند. این ابزارها در قالب بسته‌هایی کاربردی و قابل سفارشی‌سازی، مفاهیمی چون بازخورد مؤثر و خوشامدگویی کارمندان جدید با هدف تقویت همدلی و حس تعلق سازمانی را از سطح شعار به روال کاری سازمان تبدیل می‌کنند.</p>
+  </div>
+</section>
+
+<!-- ۱۳. فرآیند همکاری -->
+<section class="slide s-process" data-title="فرآیند همکاری" data-footer>
+  <header class="proc-title"><h2>فرآیند همکاری</h2><p lang="en" dir="ltr">Collaborative process</p></header>
+  <div class="proc">
+    <svg class="proc-line" viewBox="0 0 1680 700" aria-hidden="true">
+      <path d="M1400 50 H280 C130 50 130 290 280 290 H1400 C1690 290 1690 530 1400 530 H280"/>
+    </svg>
+    <ol>
+      <li style="--c:3;--r:1"><span class="num">۳</span><h3>ارائه طرح پیشنهادی اولیه</h3><p lang="en" dir="ltr">Presenting the initial proposal</p></li>
+      <li style="--c:2;--r:1"><span class="num">۲</span><h3>عارضه‌یابی و تحلیل وضعیت توسط متخصصان گرا</h3><p lang="en" dir="ltr">Diagnosing complications and analyzing the situation by experts</p></li>
+      <li style="--c:1;--r:1"><span class="num">۱</span><h3>برگزاری جلسه معرفی خدمات و شناسایی نیازهای سازمان</h3><p lang="en" dir="ltr">Holding a meeting to introduce services and identify the organization’s needs</p></li>
+      <li style="--c:3;--r:2"><span class="num">۴</span><h3>طراحی و تدوین طرح اجرایی و عملیاتی</h3><p lang="en" dir="ltr">Designing and compiling an executive and operational plan</p></li>
+      <li style="--c:2;--r:2"><span class="num">۵</span><h3>عقد قرارداد همکاری</h3><p lang="en" dir="ltr">Contract of cooperation</p></li>
+      <li style="--c:1;--r:2"><span class="num">۶</span><h3>دریافت بازخورد از سازمان و اصلاح طرح بر اساس آن</h3><p lang="en" dir="ltr">Receiving feedback from the organization and modifying the plan based on it</p></li>
+      <li style="--c:3;--r:3"><span class="num">۹</span><h3>همراهی پس از اجرا</h3><p class="fa-sub">پیگیری روند رشد شرکت‌کنندگان و ارائه‌ی محتوای تکمیلی مورد نیاز برای تداوم اثر یادگیری</p><p lang="en" dir="ltr">Accompanying after the performance</p></li>
+      <li style="--c:2;--r:3"><span class="num">۸</span><h3>دریافت بازخورد از سازمان و شرکت‌کنندگان برای بهبود مستمر</h3><p lang="en" dir="ltr">Receive feedback from the organization and participants for continuous improvement</p></li>
+      <li style="--c:1;--r:3"><span class="num">۷</span><h3>اجرای طرح در سازمان</h3><p lang="en" dir="ltr">Implementation of the plan in the organization</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ۱۴. پایان‌بندی و یادداشت -->
+<section class="slide s-close" data-title="در کنار شما">
+  <div class="half white notes">
+    <label for="notes"><svg class="ic"><use href="#i-note"/></svg><span>یادداشت:</span></label>
+    <textarea id="notes" spellcheck="false" aria-label="یادداشت‌های شما (فقط در همین مرورگر ذخیره می‌شود)"></textarea>
+  </div>
+  <div class="half navy">
+    <blockquote>
+      <p>در گرا، رشد سازمانی با قرار گرفتن انسان در مرکز تحول معنا می‌یابد. ما همراه شما هستیم تا یادگیری به تجربه‌ای الهام‌بخش و ماندگار تبدیل شود. اگر به‌دنبال تیمی خلاق‌تر و فرهنگی پیشرو هستید، اکنون زمان آغاز است. به سازمان‌هایی بپیوندید که با گرا، یادگیری را به مزیت رقابتی بدل کرده‌اند.</p>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ۱۵. تماس -->
+<section class="slide s-contact" data-title="تماس با گرا">
+  <img class="logo-card" src="assets/logo-card.jpg" alt="پردیس نوآوری گرا">
+  <div class="qrs">
+    <img src="assets/qr-a.jpg" alt="کد QR اول">
+    <img src="assets/qr-b.jpg" alt="کد QR دوم">
+  </div>
+  <ul class="contact">
+    <li><a href="tel:09109096160"><svg class="ic"><use href="#i-call"/></svg><span dir="ltr">۰۹۱۰۹۰۹۶۱۶۰</span></a></li>
+    <li><a href="https://www.igera.ir" target="_blank" rel="noopener"><svg class="ic"><use href="#i-globe"/></svg><span dir="ltr">www.igera.ir</span></a></li>
+    <li><a href="mailto:info@igera.ir"><svg class="ic"><use href="#i-mail"/></svg><span dir="ltr">info@igera.ir</span></a></li>
+  </ul>
+</section>
+
+</div>
+
+<div class="footer" id="footer" aria-hidden="true"><span class="fpn" id="fpn">۱</span><span>پردیس نوآوری گرا</span></div>
+</div>
+</div>
+
+<!-- کنترل‌ها (خارج از صحنه، با بیکاری مخفی می‌شوند) -->
+<div id="ui">
+  <div id="progress"><i></i></div>
+  <button id="next" class="nav nav-next" aria-label="اسلاید بعد" title="اسلاید بعد (←)"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+  <button id="prev" class="nav nav-prev" aria-label="اسلاید قبل" title="اسلاید قبل (→)"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+  <div id="bar">
+    <span id="counter" aria-live="polite">۱ / ۱۵</span>
+    <button id="fs" aria-label="تمام‌صفحه" title="تمام‌صفحه (F)"><svg viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
